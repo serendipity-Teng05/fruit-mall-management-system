@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /mall
+Disallow: /dashboard
+Disallow: /product
+Disallow: /order
+Disallow: /payment
+Disallow: /user
+Disallow: /roles
+Disallow: /system

@@ -1,0 +1,5 @@
+# Local development example. Do not put a real password in this tracked file.
+# Run .\scripts\configure-local.ps1 to create the ignored application-local.properties.
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/fruit_mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+spring.datasource.username=root
+spring.datasource.password=replace-with-your-local-password

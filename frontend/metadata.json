@@ -1,0 +1,7 @@
+{
+  "name": "水果商城管理系统",
+  "description": "基于 SpringBoot/Vue 3 架构的水果商城管理系统，包含商品库存管理、订单全生命周期管理及 RBAC 人员权限控制。",
+  "requestFramePermissions": []
+}
+
+

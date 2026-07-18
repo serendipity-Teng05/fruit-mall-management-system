@@ -1,0 +1,20 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+### 测试创建订单接口
+POST http://localhost:8080/order/create
+Content-Type: application/json
+
+{
+  "customerName": "IDEA测试用户",
+  "customerPhone": "13900000000",
+  "address": "电脑前",
+  "totalAmount": 88.88,
+  "items": [
+    {
+      "productId": 5,
+      "count": 15
+    }
+  ]
+}
